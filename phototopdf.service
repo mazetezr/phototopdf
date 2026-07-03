@@ -1,0 +1,15 @@
+[Unit]
+Description=Photo to PDF Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/phototopdf
+ExecStart=/root/phototopdf/.venv/bin/python3 bot.py
+Restart=on-failure
+RestartSec=5
+EnvironmentFile=/root/phototopdf/.env
+
+[Install]
+WantedBy=multi-user.target

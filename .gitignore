@@ -1,0 +1,16 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+*.db
+*.sqlite3
+*.session
+*.session-journal
+credentials.json
+token.json
+data/
+*.jpg
+*.jpeg
+*.png

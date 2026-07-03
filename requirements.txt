@@ -1,0 +1,4 @@
+aiogram>=3.2
+Pillow
+python-dotenv
+opencv-python-headless
